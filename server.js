@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 3000;
-const destinations = require("../data/destinations");
+const destinations = require("./data/destinations");
 
 // Mengaktifkan CORS untuk semua rute
 app.use(cors());
