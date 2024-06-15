@@ -11,6 +11,10 @@ app.use(cors());
 app.use(express.json());
 
 // Endpoint GET semua destinasi wisata
+app.get("/", (req, res) => {
+  res.send('Express server working');
+});
+
 app.get("/wisata", (req, res) => {
   res.json({
     error: false,
