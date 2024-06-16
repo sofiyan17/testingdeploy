@@ -1,7 +1,7 @@
 const destinations = [
   {
     id: "1",
-    title: "Danau Toba",
+    title: "Danau Toba aaaaa",
     region: "IB",
     provinsi: "Provinsi Sumatera Utara",
     hero_img:
